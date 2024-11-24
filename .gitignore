@@ -1,0 +1,7 @@
+save/
+data/*
+!data/*.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
