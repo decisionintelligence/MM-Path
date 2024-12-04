@@ -7,9 +7,7 @@ This code provides a PyTorch implementation of our paper, "MM-Path: Multi-modal,
 
 MM-Path is a novel framework for multi-modal, multi-granularity path representation learning. It learns a generic path representation by integrating data from both road and image paths. The multi-granularity alignment component focuses on extracting path-related information, capturing both fine-grained details and coarse-grained global context. Meanwhile, the graph-based cross-modal residual fusion component effectively merges heterogeneous cross-modal data.
 
-![Alt text](framework-1.png)
-
-
+![image](framework.png)
 
 ## Data
 
