@@ -11,7 +11,7 @@ MM-Path is a novel framework for multi-modal, multi-granularity path representat
 
 ## Data
 
-*  The road networks are sourced from OpenStreetMap, details of which are available at https://www.openstreetmap.org. The trajectory data is provided by DiDi. The processed data can be install in this [link](https://drive.google.com/file/d/1eia9XDL-T-so8qnWpK2EVaujGlZybk6c/view?usp=sharing) and decompression it in to `data/`. 
+*  The road networks are sourced from OpenStreetMap, details of which are available at https://www.openstreetmap.org. The processed data can be install in this [link](https://drive.google.com/file/d/1eia9XDL-T-so8qnWpK2EVaujGlZybk6c/view?usp=sharing) and decompression it in to `data/`. 
 *  Remote sensing images can be accessed through the Google Earth Engine API. Please refer to https://earthengine.google.com/. Each image listed in `data/Xian/image_long_lat.csv` is 500 $\times$ 500 pixels, with each pixel corresponding to 2 meters on the earth. Subsequently, each image is divided into 4$\times$ 4 patches, named as {image_name}_{split_number}.png. Finally, the pre-trained ResNet-50 model is utilized to extract the image embeddings from these patches.
 
 
